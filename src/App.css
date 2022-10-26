@@ -186,7 +186,7 @@ body {
   body {
     background: #EDEDED;
     background-image: url('./img/background.png');
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .navbar-wrapper {
@@ -392,5 +392,36 @@ body {
 
   input {
     height: 45px;
+  }
+
+  footer {
+    background: #131620;
+    color: white;
+    max-width: 100%;
+
+  }
+
+  .footer-element-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-block-h2 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .footer-contact-item {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .footer-social {
+    margin-bottom: 30px;
   }
 }
