@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import mask from './img/mask_group.png'
 
 
 class Header extends React.Component {
@@ -14,7 +15,7 @@ class Header extends React.Component {
                     <p className=' hello-block-p2'>Наши специалисты предоставляют услуги на всей территории
                         Российской Федерации.</p>
                     <div className="hello-block-mask-wrapper">
-
+                        <img src={mask} alt="" />
                     </div>
                     <h2 className='hello-block-h2'>Наш опыт - ваше преимущество</h2>
                     <p className='hello-block-p1 mb-block'>Целью Компании <b> "Банкрот момент" </b><br /> является защита интересов клиентов и освобождение

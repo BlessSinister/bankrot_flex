@@ -16,7 +16,7 @@ class Form extends React.Component {
                     </div>
                     <div className="form-block-input">
                         <p> E-mail</p>
-                        <input type="email" placeholder="Ivanov@mai.ru" className="form-block-inputdecor" />
+                        <input type="email" placeholder="Ivanov@mail.ru" className="form-block-inputdecor" />
                     </div>
                     <div className="form-block-btn">
                         <div className="form-block-btn-text" type='submit'>
